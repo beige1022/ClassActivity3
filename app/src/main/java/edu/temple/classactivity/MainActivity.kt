@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
                 nameEditText.error = null
             } else {
                 nameEditText.error = "Please enter your name!"
-                displayTextView.text = ""
+                displayTextView.text = " "
             }
         }
     }
